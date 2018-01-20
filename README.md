@@ -21,7 +21,7 @@ When a car arrives at the front of the queue, the driver can choose to drive to 
 another car. Suppose that the fuel demand is D liters for this car. The driver must choose a dispenser which
 has at least D liters of fuel. If all unoccupied dispensers have less than D liters, the driver must wait for
 some other car to finish tanking up. If all dispensers are unoccupied, and none has at least D liters, the
-driver is unable to refuel the car and it blocks the queue inde􀃂nitely. If more than one unoccupied dispenser
+driver is unable to refuel the car and it blocks the queue indefinitely. If more than one unoccupied dispenser
 has at least D liters, the driver chooses the one labeled with the smallest letter among them.
 
 Each driver will have to wait some amount of time before he or she starts refueling the car. Calculate the
@@ -50,10 +50,10 @@ At time 0, car 0 drives to dispenser X.
 At time 0, car 1 drives to dispenser Y.
 
 There is not enough fuel in dispenser Z to satisfy the demands of car 2, so this car must
-wait. At time 2 car 0 􀃂nishes refueling and car 2 drives to dispenser X.
+wait. At time 2 car 0 finishes refueling and car 2 drives to dispenser X.
 At time 2 car 3 drives to dispenser Z.
 At this time all dispensers are occupied, so car 4 waits. There will be not enough fuel in
-dispensers X and Z after cars 2 and 3 􀃂nish tanking up, so car 4 waits until car 1 􀃂nishes
+dispensers X and Z after cars 2 and 3 finish tanking up, so car 4 waits until car 1 finishes
 refuelling at dispenser Y. At time 8, car 4 drives to dispenser Y.
 
 For X = 4, Y = 0, Z = 3 and array A:
